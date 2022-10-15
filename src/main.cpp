@@ -27,14 +27,7 @@ void setup() {
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
-  /*digitalWrite(13, HIGH);
-  Serial.println("Stan wysoki");
-  delay(1350);
-  digitalWrite(13, LOW);
-  Serial.println("Stan niski");
-  delay(1350);
-  */
+  
 
  if(Serial.available())
  {
